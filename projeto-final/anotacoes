@@ -1,0 +1,16 @@
+- lembrar que a pasta public será o unico diretório acessivel para usuario, sendo assim na hora da o servidor executar
+ php -S localhost -t public
+
+ - nome da view por boa pratica deve ser referente ao nome de um controllers
+
+ ex: 
+ - nome do controller
+    -> indexController 
+
+- nome da view
+    indexView
+ -------------------------------------------------------------------
+
+nota
+- dentro de controller foi criado uma classe abstract
+
