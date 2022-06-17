@@ -14,6 +14,7 @@
             <td>PREÇO</td>
             <td>QUANTIDADE</td>
             <th>DATA DE CADASTRO</th>
+            <th>AÇÕES</th>
         </tr>
     </thead>
     <tbody>
@@ -28,10 +29,10 @@
                     echo "<td>R$ {$value}</td>";
                     echo "<td>{$quantity}</td>";
                     echo "<td>{$create_at}</td>";
-                    // echo "<td>
-                    //         <a href='/categorias/excluir?id={$id}' class='btn btn-danger btn-sm'>Excluir</a>
-                    //         <a href='/categorias/editar?id={$id}' class='btn btn-warning btn-sm'>Editar</a>
-                    //      </td>";
+                    echo "<td>
+                            <a href='/produtos/excluir?id={$id}' class='btn btn-danger btn-sm'>Excluir</a>
+                            <a href='/produtos/editar?id={$id}' class='btn btn-warning btn-sm'>Editar</a>
+                         </td>";
                 echo '</tr>';
             }
         ?>

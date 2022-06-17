@@ -14,3 +14,15 @@
 nota
 - dentro de controller foi criado uma classe abstract
 
+
+
+<select class="form-select" name="category_id" id="category">
+        <option selected>---SELECIONE A CATEGORIA---</option>
+        <?php
+            while($category = $data->fetch(\PDO::FETCH_ASSOC)){
+                extract($category);
+
+                echo "<option value='{$id}'>{$name}</option>";
+            }
+        ?>
+    </select><br>
