@@ -10,10 +10,28 @@
     </head>
     <body class="container" style="background-color:#EFEFEF">
 
-        <nav class="mt-3">
-            <a href="/" class="btn btn-dark">Inicio</a>
-            <a href="/categorias" class="btn btn-dark">Categorias</a>
-            <a href="/produtos" class="btn btn-dark">Produtos</a>
-        </nav>
-        <hr>
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-dark" style="background-color:#064635">
+                <div class="container">
+                    <a class="navbar-brand" href="/">LOJA - VIRTUAL</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <nav class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">INÍCIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/categorias">CATEGORIA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/produtos">PRODUTOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </nav>
+        </header>
+        
         

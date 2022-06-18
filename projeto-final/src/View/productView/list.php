@@ -1,7 +1,6 @@
-<h1>Listar Produtos</h1>
 
 <div class="mt-3 mb-3 text-end"> 
-    <a href="/produtos/novo" class="btn btn-primary">cadastrar produto</a>
+    <a href="/produtos/novo" class="btn btn-dark">Novo produto</a>
 </div>
 
 <table class="table table-hover table-striped">

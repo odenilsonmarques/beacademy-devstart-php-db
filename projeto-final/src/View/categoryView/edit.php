@@ -1,10 +1,12 @@
 
-<h1>editar</h1>
-
 <form action="" method="post">
-    <input type="text" name="name" id="name" value="<?=$data['name']?>" class="form-control" placeholder="digite seu nome">
-    
-    <input type="text" name="description"  value="<?=$data['description'];?>" id="description" class="form-control" placeholder="digite a descrição">
-    
-    <button class="btn btn-primary">salvar</button>
+    <div class="row  mt-5">
+        <div class="col-lg-6">
+            <input type="text" name="name" id="name" value="<?=$data['name']?>" class="form-control">
+        </div>
+        <div class="col-lg-6">
+            <input type="text" name="description"  value="<?=$data['description'];?>" id="description" class="form-control">
+        </div>
+    </div>
+    <button class="btn btn-primary  mt-3">salvar</button>
 </form>
